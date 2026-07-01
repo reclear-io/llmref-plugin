@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.llmref/llmref",
+  "description": "Versioned documentation registry and semantic search for AI tools, coding assistants, and retrieval systems.",
+  "version": "0.1.0",
+  "websiteUrl": "https://llmref.org",
+  "repository": {
+    "url": "https://github.com/reclear-io/llmref-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.llmref.org/v1/mcp"
+    }
+  ]
+}
