@@ -1,0 +1,14 @@
+{
+  "name": "llmref",
+  "owner": {
+    "name": "Reclear.io",
+    "url": "https://reclear.io"
+  },
+  "plugins": [
+    {
+      "name": "llmref",
+      "source": "./plugins/llmref",
+      "description": "Versioned, model-ready documentation and semantic search via the LLM Reference MCP server, plus a skill that teaches the tool flow."
+    }
+  ]
+}

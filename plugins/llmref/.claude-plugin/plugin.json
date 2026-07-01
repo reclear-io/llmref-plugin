@@ -1,0 +1,13 @@
+{
+  "name": "llmref",
+  "description": "Connect to LLM Reference (llmref.org) for versioned, model-ready documentation and semantic search, with a skill that teaches the tool flow.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Reclear.io",
+    "url": "https://reclear.io"
+  },
+  "homepage": "https://llmref.org",
+  "repository": "https://github.com/reclear-io/llmref-plugin",
+  "license": "MIT",
+  "keywords": ["documentation", "mcp", "semantic-search", "llms-txt", "docs"]
+}

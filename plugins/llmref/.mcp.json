@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "llmref": {
+      "type": "http",
+      "url": "https://api.llmref.org/v1/mcp"
+    }
+  }
+}
