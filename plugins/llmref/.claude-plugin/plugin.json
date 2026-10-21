@@ -1,7 +1,7 @@
 {
   "name": "llmref",
   "description": "Connect to LLM Reference (llmref.org) for versioned, model-ready documentation and semantic search, with a skill that teaches the tool flow.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Reclear.io",
     "url": "https://reclear.io"

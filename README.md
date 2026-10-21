@@ -7,7 +7,8 @@ agent how and when to use it.
 ## What you get
 
 - **MCP server** `llmref` (remote, `https://api.llmref.org/v1/mcp`) exposing
-  `list_projects`, `list_versions`, `resolve_docs`, and `search_docs`.
+  `list_projects`, `list_versions`, `resolve_docs`, `search_docs`, and the optional
+  `report_missing_docs` feedback method.
 - **Skill** `llmref` that tells the agent to prefer LLM Reference over training data
   for version-specific docs, and the order to call the tools in.
 
@@ -33,3 +34,10 @@ Per-client setup (Claude Desktop, Cursor, Codex, and others) is documented at
 ## License
 
 MIT - Open Source by [Reclear.io](https://reclear.io)
+
+## Optional discovery feedback
+
+When permitted, the skill quietly reports missing public docs and any official
+llms.txt or docs URL already found during the task. It never waits for ingestion
+or sends conversation text, code, credentials or private URLs. Tell the agent not
+to report to opt out. Host permissions apply. See [PRIVACY.md](PRIVACY.md).
